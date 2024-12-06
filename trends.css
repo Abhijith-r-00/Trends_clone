@@ -1,0 +1,384 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #d4e9f7;
+}
+.navsection{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 150px;
+    width: 100%;
+justify-content: center;
+z-index: 1000;
+    /* align-items: center; */
+}
+.navsection img{
+    margin-top: 15px;
+    height: 70px;
+    width: 14%;
+}
+header{
+    align-items: center;
+    text-align: center;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    /* justify-content: baseline; */
+    margin-top: 90px;
+    margin-left: -290px;
+}
+
+nav ul li a{
+    margin-top: 15px;
+    margin: 20px;
+    text-decoration: none;
+    color:gainsboro;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    
+}
+.slidsection{
+    /* margin: 20px; */
+}
+.imgdiv{
+    height: 450px;
+    width: 100%px;
+    margin: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+/* .videosec{
+    height: 400px;
+    width: 100%;
+} */
+/* video{
+    height: 100%;
+    width: 100%;
+} */
+ .row1{
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px #e9e9e9;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+
+ }
+ video{
+    display:flex;
+        width: 97.3%;
+        /* height: 100%; */
+        border: none;
+        border-radius: 13px;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        z-index: 2;
+ }
+ .col1{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    /* margin-left:50% */
+ }
+ .search{
+    background-color: white;
+     border: 1px solid #e9e9e9;
+     border-radius: 5px;
+      height: 100px; 
+      width:590px;
+      margin-left:28%;
+      margin-top: 30px;
+ }
+ .search ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+ }
+ .search ul li{
+    list-style: none;
+ }
+ .search ul li a{
+    text-decoration: none;
+    color: grey;
+    /* font-family: popins; */
+ }
+/* button{
+    background-color: black;
+    color: white ;
+} */
+ /* button{ */
+    /* margin-left: 10px; */
+ /* } */
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.inputdiv{
+    /* height: inherit; */
+
+    width: 99.999%;
+    border: 1px solid #e9e9e9 ;
+}
+.inputdiv button{
+    margin-left: 20px;
+}
+.inputdiv input{
+    height: 52px;
+    width: 72%;
+    border: none;
+    margin-right: 10px;
+}
+.rowcard{
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px #e9e9e9;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.colcard{
+    margin-top: 10px;
+    height: 390px;
+    margin-left: 5px;
+    border: 1px solid rgb(240, 231, 231);
+    background-color: #f6f6f6;
+width: 16rem;
+/* color:lavender; */
+border-radius: 10px;
+text-align: center;
+/* width: 189px; */
+}
+.imgdivcard{
+    height: 150px;
+    width: 97%;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.imgdivcardh1{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 130%;
+    margin-top: 10px;
+}
+.imgdivardp{
+    color: rgba(0, 0, 0, .7);
+    font-weight: 300;
+    font-size:15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    /* color: black; */
+    /* position: absolute; */
+}
+.secp{
+    font-weight: 500;
+}
+.expdivmain{
+    margin-top: 34px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px #e9e9e9;
+    height: 500px;
+    border-radius: 10px;
+}
+.expdivmain h1{
+    
+    text-align: center;
+}
+.buttondiv{
+    margin-left: 35%;
+}
+.buttondiv button{
+
+    
+    padding: 8px;
+    margin: 19px 19px 19px 19px;
+    /* height: 30px; */
+    align-items: center;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 0.9px  solid rgb(235, 230, 225);
+
+}
+.buttondiv button:hover{
+    background-color: black;
+    color: white;
+}
+
+.rowimgexp{
+    
+    height: 350px;
+    display: flex;
+
+    
+}
+.colimgexp{
+    margin-left: 5px;
+    height: 350px;
+    width:350px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.branddiv{
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px#e9e9e9;
+    border: 1px solid  solid rgb(235, 230, 225);
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    margin-top: 34px;
+}
+.branddiv h2{
+    margin: 20px 10px ;
+    text-align: center;
+}
+.brandimgdiv{
+    height: 150px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    box-shadow: 1px 10px 12px 5px rgba(0,0,0,0.2);
+    height: 100px;
+    margin-top: -1px;
+    margin-left: 8px;
+    
+   
+    
+  }
+ 
+.dropdown-content a {
+    color: rgba(0, 0, 0, 0.511);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: solid 0.1px rgba(0, 0, 0, 0.115);
+    height: 33px;
+    letter-spacing: 3px;
+  }
+  .dropdown-content a:hover {
+    color: black;
+    
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+
+    
+}
+
+
+
+
+
+
+.row6{
+    background-color: rgb(0, 0, 0);
+    
+   
+    display: flex;
+    height: 255px;
+    width: 100%;
+    margin-top: 100px;
+}
+ 
+#navitems{
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+h4{
+    margin: 15px;
+    font-size: 4px;
+    /* font-weight: 550; */
+    letter-spacing: 1px;
+    /* color: white; */
+    color: white;
+    cursor: pointer;
+}
+span{
+    color: black;
+}
+#policy{
+    margin-top: -10px;
+    cursor: pointer;
+}
+#follow{
+    margin-top: 50px;
+    margin-left: 1150px;
+    margin-top: -160px;
+}
+#icons1{
+    margin: 2px;
+    height: 28px;
+    width: 28px;
+    border: solid 0.2px white;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    
+}
+#icons{
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+.footer{
+ color: white;
+    /* height: 500px; */
+    background-color: black;
+}
+ .imgdivfooter{
+    height: 90px;
+    width: 250px;
+    margin-left: 20px;
+ }
+ img{
+    height: 100%;
+    width: 100%;
+ }
+ .map{
+    margin-top: 40px;
+    margin-left: 1000px;
+    height: 100px;
+ }
+ .select{
+    color: rgb(53, 53, 53);
+    margin-left: 15px;
+    padding: 8px;
+    border: 1px solid #c5c3c3;
+
+ }
